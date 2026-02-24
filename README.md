@@ -3,16 +3,16 @@
 Script ini ngapain aja? :
 
 
-Auto detect: coba SSH key dulu
-Kalau gagal → fallback ke password
-✅ Fix SSH rule config
-✅ Create user devops kalau belum ada
-✅ Setup sudoers NOPASSWD untuk devops
-✅ Inject authorized_keys dengan pubkey yang di input
-✅ Validate sshd config sebelum restart
-✅ set date ke WIB
-✅ Proper quoting (tidak kena bug sshpass)
-✅ Idempotent (rerun aman)
+##### ✅ Auto detect: coba SSH key dulu
+##### ✅ Kalau gagal → fallback ke password
+##### ✅ Fix SSH rule config
+##### ✅ Create user devops kalau belum ada
+##### ✅ Setup sudoers NOPASSWD untuk devops
+##### ✅ Inject authorized_keys dengan pubkey yang di input
+##### ✅ Validate sshd config sebelum restart
+##### ✅ set date ke WIB
+##### ✅ Proper quoting (tidak kena bug sshpass)
+##### ✅ Idempotent (rerun aman)
 
 sebelum jalanin bikin list server nya dulu :
 
