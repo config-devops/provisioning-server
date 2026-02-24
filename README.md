@@ -1,6 +1,6 @@
 # Provisioning Server
 
-Script ini jalanin :
+Script ini ngapain aja? :
 
 ✅ Auto detect: coba SSH key dulu
 ✅ Kalau gagal → fallback ke password
@@ -24,7 +24,7 @@ Contoh :
 2.2.2.2
 3.3.3.3
 ```
-
+langsung run :
 ``` bash
 
 curl -O https://raw.githubusercontent.com/config-devops/provisioning-server/refs/heads/main/provisioning.sh
