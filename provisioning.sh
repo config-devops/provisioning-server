@@ -83,6 +83,9 @@ EOF
 
     sudo chown -R devops:devops /home/devops/.ssh
     sudo chmod 600 /home/devops/.ssh/authorized_keys
+    sudo mv /etc/localtime /etc/localtime.orig
+    sudo ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+
 
     echo \"✅ Server selesai\"
   '\"
