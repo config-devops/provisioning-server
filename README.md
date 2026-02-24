@@ -2,8 +2,9 @@
 
 Script ini ngapain aja? :
 
-✅ Auto detect: coba SSH key dulu
-✅ Kalau gagal → fallback ke password
+
+Auto detect: coba SSH key dulu
+Kalau gagal → fallback ke password
 ✅ Fix SSH rule config
 ✅ Create user devops kalau belum ada
 ✅ Setup sudoers NOPASSWD untuk devops
